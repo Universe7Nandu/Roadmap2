@@ -39,7 +39,7 @@ GROQ_API_KEY=your_actual_groq_api_key
 ### Running the Application
 
 ```bash
-streamlit run app.py
+streamlit run simple_rag.py
 ```
 
 ### Usage
@@ -113,7 +113,7 @@ GROQ_API_KEY="your-groq-api-key"
 
 4. Run the application:
 ```bash
-streamlit run app.py
+streamlit run simple_rag.py
 ```
 
 ## Deployment
@@ -122,11 +122,11 @@ This application is ready for deployment on Streamlit Cloud:
 
 1. Push to GitHub
 2. Connect your repository on [Streamlit Cloud](https://streamlit.io/cloud)
-3. Deploy with the command: `streamlit run app.py`
+3. Deploy with the command: `streamlit run simple_rag.py`
 
 ## Structure
 
-- `app.py`: Main application file
+- `simple_rag.py`: Main application file
 - `requirements.txt`: Python dependencies
 - `packages.txt`: System dependencies for document processing
 - `.streamlit/config.toml`: Streamlit configuration
