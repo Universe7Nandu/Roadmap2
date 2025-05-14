@@ -79,4 +79,60 @@ This project is open source and available under the MIT License.
 - Groq for providing high-performance LLaMA3 API access
 - Streamlit for the interactive UI framework
 - HuggingFace for embedding models
-# Roadmap2
+
+# RAG Streamlit Application
+
+This application demonstrates a Retrieval-Augmented Generation (RAG) system built with Streamlit, LangChain, and Groq.
+
+## Features
+
+- Upload documents (PDF, DOCX, TXT, CSV)
+- Process and index document content
+- Add web pages by URL
+- Ask questions about your documents
+- View document statistics and management
+- Beautiful Streamlit UI
+
+## Setup
+
+1. Clone this repository:
+```bash
+git clone https://github.com/Universe7Nandu/Roadmap2.git
+cd Roadmap2
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Create a `.env` file in the root directory with your Groq API key:
+```
+GROQ_API_KEY="your-groq-api-key"
+```
+
+4. Run the application:
+```bash
+streamlit run app.py
+```
+
+## Deployment
+
+This application is ready for deployment on Streamlit Cloud:
+
+1. Push to GitHub
+2. Connect your repository on [Streamlit Cloud](https://streamlit.io/cloud)
+3. Deploy with the command: `streamlit run app.py`
+
+## Structure
+
+- `app.py`: Main application file
+- `requirements.txt`: Python dependencies
+- `packages.txt`: System dependencies for document processing
+- `.streamlit/config.toml`: Streamlit configuration
+- `data/`: Directory for uploaded documents
+- `vectordb/`: Vector database storage
+
+## License
+
+MIT
