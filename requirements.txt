@@ -1,0 +1,39 @@
+# Core dependencies
+streamlit>=1.32.0
+langchain>=0.1.0
+langchain-community>=0.0.10
+langchain-groq>=0.1.1
+python-dotenv>=1.0.0
+
+# Document processing
+unstructured>=0.10.30
+python-docx>=0.8.11
+pypdf2>=3.0.1
+pandas>=2.0.0
+beautifulsoup4>=4.12.2
+openpyxl>=3.1.2
+
+# Embeddings and vector stores
+sentence-transformers>=2.2.2
+chromadb>=0.4.22
+faiss-cpu>=1.7.4
+qdrant-client>=1.6.4
+
+# Language model integration
+groq>=0.4.1  # For Groq integration
+tiktoken>=0.5.1  # For token counting
+hf-transfer>=0.1.4  # For faster HuggingFace model downloads
+
+# Web UI enhancements
+streamlit-extras>=0.3.5
+streamlit-shadcn-ui>=0.1.9
+altair>=5.1.2  # For visualizations
+pydantic>=2.4.0
+
+# Evaluation tools
+trulens-eval>=0.18.0
+
+# Utilities
+tenacity>=8.2.2  # For retries
+tqdm>=4.66.0  # For progress bars
+requests>=2.31.0
