@@ -177,7 +177,7 @@ streamlit run simple_rag.py
     <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); padding: 15px; color: white; font-weight: bold;">Document Upload Interface</div>
   </div>
   <div style="width: 47%; position: relative; overflow: hidden; border-radius: 12px; box-shadow: 0 10px 25px rgba(0,0,0,0.2); transition: all 0.3s ease;" onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 15px 35px rgba(0,0,0,0.3)'" onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 10px 25px rgba(0,0,0,0.2)'">
-    <img src="https://raw.githubusercontent.com/Universe7Nandu/Roadmap2/main/static/images/ui_screenshot2.gpeg" width="100%" style="display: block;" />
+    <img src="https://raw.githubusercontent.com/Universe7Nandu/Roadmap2/main/static/images/ui_screenshot2.jpeg" width="100%" style="display: block;" />
     <div style="position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(to top, rgba(0,0,0,0.7), transparent); padding: 15px; color: white; font-weight: bold;">Chat Interface</div>
   </div>
 </div>
