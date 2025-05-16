@@ -274,6 +274,3 @@ This application is ready for deployment on Streamlit Cloud:
 - `data/`: Directory for uploaded documents
 - `vectordb/`: Vector database storage
 
-## 📄 License
-
-MIT
