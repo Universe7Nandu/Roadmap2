@@ -15,9 +15,8 @@ DATA_DIR = "data"
 # Create directory if it doesn't exist
 os.makedirs(DATA_DIR, exist_ok=True)
 
-# Load environment variables
-load_dotenv()
-GROQ_API_KEY = "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"
+
+GROQ_API_KEY = "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"
 
 if not GROQ_API_KEY:
     logger.error("GROQ_API_KEY not found in .env file")
